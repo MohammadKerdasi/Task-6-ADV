@@ -1,5 +1,5 @@
-const TextCon = ({ text, additionalClass = "" }) => (
-    text ? <p className={`text-lightText text-[16px] ${additionalClass}`}>{text}</p> : null
+const TextCon = ({ text, secondClass = "" }) => (
+    text ? <p className={`text-lightText text-[16px] ${secondClass}`}>{text}</p> : null
   );
   
   export default TextCon;

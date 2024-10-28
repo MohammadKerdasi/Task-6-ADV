@@ -3,9 +3,9 @@ import { useTheme } from '../ThemeContext';
 const NewsLatters = () => {
     const { darkMode } = useTheme();
   return (
-    <div className = {`w-full transition duration-300 
+    <div className = {`w-full transition duration-300 mb-4
         ${darkMode ? "bg-dark" : "bg-white"} relative`}>
-          <div  className = {`w-[84.444%] mx-auto transition duration-300 
+          <div  className = {`lg:w-[84.444%] w-[92.326%]    mx-auto transition duration-300 
         ${darkMode ? "bg-dark" : "bg-white"} relative`}>
     <p className="text-purpleText text-center"> Newsletter</p>
     <h1 className={`text-[48px] font-bold sm:text-center text-left

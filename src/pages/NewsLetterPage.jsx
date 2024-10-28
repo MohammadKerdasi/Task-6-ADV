@@ -38,12 +38,12 @@ const NewsletterPage = () => {
 
   return (
     <>
-      <NewsLatters />
       <div
         className={`w-full transition-colors duration-300 pt-10 ${
           darkMode ? "bg-dark text-white" : "bg-white text-black"
         }`}
       >
+        <NewsLatters />
         <h2 className="lg:w-[84.444%] w-[92.326%] mx-auto text-3xl font-bold mb-6">
           Recent blog posts
         </h2>
