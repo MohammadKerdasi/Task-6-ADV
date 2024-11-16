@@ -1,4 +1,3 @@
-import React from 'react';
 import { useSelector, useDispatch } from "react-redux";
 import { useTheme } from "../ThemeContext";
 import { nextPage, prevPage, setPage } from "./../redux/slice/PagenationIndex";

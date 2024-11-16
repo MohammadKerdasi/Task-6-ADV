@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { FaSun, FaMoon, FaBars } from "react-icons/fa";
 import { LiaTimesSolid } from "react-icons/lia";
 import { useTheme } from "../ThemeContext";
