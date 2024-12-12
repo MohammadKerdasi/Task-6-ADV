@@ -9,7 +9,7 @@ import { ThemeProvider } from './ThemeContext';
 function App() {
   return (
     <ThemeProvider>
-    <Router>
+    <Router basename="/The-Blog">
         <Navbar />
           <Routes>
             <Route path="/" element={<HomePage />} />
